@@ -1,1 +1,21 @@
 /*! Place your custom styles here */
+.lang-switch {
+    position: fixed;
+    top: 15px;
+    right: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #ff8800; /* Dopasuj kolor do stylu strony */
+    display: flex;
+    align-items: center;
+    gap: 5px; /* Odstęp między ikoną a tekstem */
+}
+
+.lang-switch .flag-icon {
+    font-size: 20px; /* Powiększenie flagi */
+}
+
+.lang-switch:hover {
+    color: #ff5500; /* Efekt podświetlenia przy najechaniu */
+}
